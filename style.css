@@ -1,0 +1,37 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins',sans-serif;
+}
+
+body {
+  background-color: #5d0882;
+}
+
+.container {
+  width: 400px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+}
+
+textarea {
+  width: 100%;
+  resize: none;
+  background-color: #6a2b84;
+  border: none;
+  font-size: 16px;
+  line-height: 30px;
+  padding: 15px;
+  border-radius: 3px;
+  color: #af95ba;
+  outline: none;
+}
+
+p {
+  color: #dfdfdf;
+  text-align: right;
+  margin-top: 20px;
+}
