@@ -9,12 +9,19 @@ body {
   background-color: #5d0882;
 }
 
-.container {
-  width: 400px;
+.wrapper {
   position: absolute;
+  width: 90vmin;
   transform: translate(-50%, -50%);
   top: 50%;
   left: 50%;
+}
+
+.container {
+  background-color: #6a2b84;
+  padding: 80px 30px 50px;
+  border-radius: 8px;
+  box-shadow: 0 30px 50px rgba(30, 21, 49, .5);
 }
 
 textarea {
@@ -22,16 +29,33 @@ textarea {
   resize: none;
   background-color: #6a2b84;
   border: none;
-  font-size: 16px;
-  line-height: 30px;
+  font-size: 18px;
+  line-height: 28px;
   padding: 15px;
   border-radius: 3px;
   color: #af95ba;
   outline: none;
 }
 
-p {
-  color: #dfdfdf;
-  text-align: right;
-  margin-top: 20px;
+.count {
+  background-color: #230032;
+  width: 80%;
+  padding: 20px;
+  position: relative;
+  transform: translate(-50%, 50%);
+  left: 50%;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 0 20px 40px rgba(30, 21, 49, .5);
+}
+
+.count p {
+  color: #9191b1;
+}
+
+.count h4 {
+  color: #fff;
+  font-size: 32px;
 }

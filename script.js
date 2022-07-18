@@ -1,7 +1,12 @@
-let myText = document.getElementById("my-text");
+let inputTextArea = document.getElementById("input-textarea");
+let characterCount = document.getElementById("character-count");
+let wordCount = document.getElementById("word-count");
 
-myText.addEventListener("input", () => {
-  let count = (myText.value).length;
-  document.getElementById("count-result").
-  textContent = `Total characters: ${count}`;
-});
+inputTextArea.addEventListener("input", () => {
+
+  characterCount.textContent = inputTextArea.value.length;
+
+  let txt = inputTextArea.value.trim();
+
+  wordCount.textContent = txt.split(/\s+/).filter((item) => item).length;
+})
