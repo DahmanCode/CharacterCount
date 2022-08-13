@@ -5,3 +5,6 @@
 This is the output that appears 👇:
 
 ![output](https://user-images.githubusercontent.com/94912743/179351552-c97bb583-86ec-4943-ab06-409f2fd2a0bc.gif).
+
+We added the Word Counter, so this is how it looks the DOM after the update.
+
